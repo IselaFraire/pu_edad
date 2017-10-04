@@ -13,3 +13,5 @@ before_script:
 script:
     - python TestEdad.py
     - coverage run TestEdad.py
+    - cd edad/tests
+    - lettuce
